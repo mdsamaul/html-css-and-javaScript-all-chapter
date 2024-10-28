@@ -1,0 +1,330 @@
+.text-title {
+    padding: 6px;
+    background-color: lightcyan;
+    margin: 12px 12px;
+}
+
+article {
+    padding: 6px;
+}
+
+article div {
+    border: 1px solid darkgreen;
+}
+
+.parent {
+    width: 220px;
+    height: 220px;
+    border: 2px dashed black;
+}
+
+.relative {
+    position: relative;
+    left: 35px;
+    top: 35px;
+    border: 2px solid red;
+}
+
+.normal {
+    border: 2px dashed blue;
+}
+
+.positioned {
+    position: relative;
+    border: 2px solid black;
+    width: 220px;
+    height: 220px;
+}
+
+.non-positioned {
+    border: 2px dashed black;
+    width: 160px;
+    height: 160px;
+}
+
+.absolute {
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    border: 2px solid red;
+    background-color: white;
+}
+
+.big {
+    width: 550px;
+    height: 550px;
+    border: 2px solid black;
+}
+
+.fixed {
+    position: fixed; /*fixed position*/
+    right: 100px;
+    top: 100px;
+    width: 110px;
+    border: 2px solid red;
+}
+
+.parent {
+    width: 220px;
+    height: 220px;
+    overflow: auto;
+}
+
+.sticky {
+    position: sticky; /*normal position*/
+    top: 5px;
+    border: 2px solid red;
+    background-color: white;
+}
+
+.container {
+    position: relative; /*relative position*/
+    width: 270px;
+    height: 270px;
+    border: 2px solid red;
+}
+
+.child {
+    width: 110px;
+    height: 110px;
+    background-color: white;
+}
+
+.absolute {
+    position: absolute; /*absolute position*/
+    border: 2px solid red;
+    text-align: right;
+}
+
+.z-index-minus-two {
+    z-index: -2;
+    left: 110px;
+    top: 10px;
+}
+
+.z-index-minus-one {
+    z-index: -1;
+    left: 80px;
+    top: 40px;
+}
+
+.z-index-zero {
+    z-index: 0;
+    left: 50px;
+    top: 70px;
+}
+
+.z-index-one {
+    z-index: 1;
+    left: 20px;
+    top: 100px;
+}
+
+.z-index-two {
+    z-index: 2;
+}
+
+.flex-container {
+    display: flex;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item {
+    border: 2px solid red;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item2 {
+    border: 2px solid red;
+}
+
+.flex-container3 {
+    display: flex; /*display flex*/
+    flex-direction: column;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item3 {
+    border: 2px solid red;
+}
+
+.flex-container4 {
+    display: flex;
+    flex-direction: column-reverse; /*colum derection reverse*/
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item4 {
+    border: 2px solid red;
+}
+
+.flex-container5 {
+    display: flex;
+    justify-content: flex-end;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item5 {
+    border: 2px solid red;
+}
+
+.flex-container6 {
+    display: flex;
+    justify-content: center;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item6 {
+    border: 2px solid red;
+}
+
+.flex-container7 {
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item7 {
+    border: 2px solid red;
+}
+
+.flex-container8 {
+    display: flex;
+    justify-content: space-around;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item8 {
+    border: 2px solid red;
+}
+
+.flex-container9 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item9 {
+    border: 2px solid red;
+}
+
+.flex-container10 {
+    display: flex;
+    align-items: flex-start;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item10 {
+    border: 2px solid red;
+}
+
+.flex-container11 {
+    display: flex;
+    align-items: flex-end;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item11 {
+    border: 2px solid red;
+}
+
+.flex-container12 {
+    display: flex;
+    align-items: center;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item12 {
+    border: 2px solid red;
+}
+
+.flex-container13 {
+    display: flex;
+    align-items: baseline;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item13 {
+    border: 2px solid red;
+}
+
+.item1 {
+    height: 60px;
+}
+
+.item2 {
+    line-height: 90px;
+}
+
+.flex-container14 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 160px;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item14 {
+    border: 2px solid red;
+    flex-basis: 130px;
+}
+
+.flex-container15 {
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+    gap: 12px;
+}
+
+.flex-item15 {
+    border: 2px solid red;
+}
+
+.lnk-home {
+    margin-right: auto;
+}

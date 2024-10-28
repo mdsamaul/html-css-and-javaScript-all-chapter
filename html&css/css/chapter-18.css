@@ -1,0 +1,155 @@
+.text-title {
+    padding: 10px;
+    background-color: lightsteelblue;
+    margin: 15px 15px;
+}
+
+article {
+    padding: 10px;
+}
+
+article div {
+    border: 2px solid darkolivegreen;
+}
+
+.container {
+    border: 3px solid black;
+    width: 350px;
+    height: 140px;
+}
+
+.inline-blocks {
+    display: inline-block;
+    border: 3px solid darkorange;
+    height: 60px;
+}
+
+.normal-blocks {
+    border: 3px solid darkviolet;
+}
+
+.hidden {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.container2 {
+    width: 600px;
+    height: 300px;
+    border: 2px solid green;
+}
+
+.container2 img {
+    width: 350px;
+    height: 250px;
+    border: 3px solid maroon;
+    object-fit: cover;
+}
+
+.container3 img {
+    width: 180px;
+    height: 130px;
+    border: 3px solid maroon;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.container4 {
+    border: 3px solid black;
+    width: 240px;
+    height: 140px;
+}
+
+.container4, .child {
+    margin: 15px;
+    border: 3px solid red;
+    background-color: lightgray;
+    height: 180px;
+}
+
+.container5 {
+    overflow: hidden;
+    border: 3px solid black;
+    width: 240px;
+    height: 140px;
+}
+
+.container5, .child {
+    margin: 15px;
+    border: 3px solid red;
+    background-color: lightgray;
+    height: 180px;
+}
+
+.container6 {
+    overflow: scroll;
+    border: 3px solid black;
+    width: 240px;
+    height: 140px;
+}
+
+.container6, .child {
+    margin: 15px;
+    border: 3px solid red;
+    background-color: lightgray;
+    height: 180px;
+}
+
+.container7 h1 {
+    text-shadow: 5px 5px darkred;
+}
+
+.container7 h2 {
+    text-shadow: 5px 5px 7px darkred;
+}
+
+.container7 h3 {
+    color: lightyellow;
+    text-shadow: 0 0 4px #f00, 0 0 30px #00f;
+}
+
+.newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: dotted;
+    column-rule-width: 3px;
+    column-rule-color: gray;
+}
+
+table {
+    border: 3px solid darkgreen;
+}
+
+th {
+    border: 3px solid darkred;
+}
+
+td {
+    border: 3px solid darkblue;
+}
+
+.container8 {
+    height: 300px;
+    margin-top: 80px;
+}
+
+.container8 div {
+    border: 3px solid darkgray;
+}
+
+.container8, .test1 {
+    transform: skewX(4deg);
+}
+
+.container8, .test2 {
+    transform: skewY(-5deg);
+}
+
+.container8, .test3 {
+    position: relative;
+    top: 80px;
+    transform: skew(3deg, 8deg);
+}

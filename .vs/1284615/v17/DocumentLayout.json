@@ -1,0 +1,751 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\course\\main preject\\1284615\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_15.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_15.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_14.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_14.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_16.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_16.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_13.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_13.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_12.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_12.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_11.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_11.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_9.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_9.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_8.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_8.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_7.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_7.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\javaScript\\chapter_1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:javaScript\\chapter_1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-22.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\css\\chapter-22.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-21.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\css\\chapter-21.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-20.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\css\\chapter-20.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-19.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\css\\chapter-19.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-18.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\css\\chapter-18.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-17.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\css\\chapter-17.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\css\\chapter-1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-22.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter-22.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-21.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter-21.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-20.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter-20.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-19.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter-19.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-16.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter-16.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-15.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter-15.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-18.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter-18.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-17.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter-17.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-14.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter-14.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_13.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_13.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_12.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_12.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_11.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_11.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_9.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_9.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_8.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_8.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_7.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_7.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:html\u0026css\\chapter\\chapter_4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\course\\main preject\\1284615\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "chapter_16.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_16.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_16.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_16.html",
+              "RelativeToolTip": "javaScript\\chapter_16.html",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAcwPYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:48:32.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chapter_15.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_15.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_15.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_15.html",
+              "RelativeToolTip": "javaScript\\chapter_15.html",
+              "ViewState": "AgIAAIsBAAAAAAAAAAASwJoBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:48:23.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "chapter_5.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_5.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_5.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_5.html",
+              "RelativeToolTip": "javaScript\\chapter_5.html",
+              "ViewState": "AgIAAJUBAAAAAAAAAAAcwKIBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:37:43.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "chapter_6.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_6.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_6.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_6.html",
+              "RelativeToolTip": "javaScript\\chapter_6.html",
+              "ViewState": "AgIAAGkBAAAAAAAAAAAcwHUBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:39:25.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "chapter_7.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_7.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_7.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_7.html",
+              "RelativeToolTip": "javaScript\\chapter_7.html",
+              "ViewState": "AgIAANsBAAAAAAAAAAAcwOcBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:40:03.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "chapter_8.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_8.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_8.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_8.html",
+              "RelativeToolTip": "javaScript\\chapter_8.html",
+              "ViewState": "AgIAAPQBAAAAAAAAAAAcwP4BAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:40:37.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "chapter_9.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_9.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_9.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_9.html",
+              "RelativeToolTip": "javaScript\\chapter_9.html",
+              "ViewState": "AgIAAIEBAAAAAAAAAAAcwI0BAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:42:14.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "chapter_10.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_10.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_10.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_10.html",
+              "RelativeToolTip": "javaScript\\chapter_10.html",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAcwNEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:42:44.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "chapter_11.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_11.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_11.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_11.html",
+              "RelativeToolTip": "javaScript\\chapter_11.html",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAcwIoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:43:37.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "chapter_12.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_12.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_12.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_12.html",
+              "RelativeToolTip": "javaScript\\chapter_12.html",
+              "ViewState": "AgIAAFICAAAAAAAAAAAiwF8CAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:44:00.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "chapter_14.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_14.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_14.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_14.html",
+              "RelativeToolTip": "javaScript\\chapter_14.html",
+              "ViewState": "AgIAALgAAAAAAAAAAAAcwMoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:45:39.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "chapter_4.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_4.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_4.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_4.html",
+              "RelativeToolTip": "javaScript\\chapter_4.html",
+              "ViewState": "AgIAANwAAAAAAAAAAAAcwOUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:35:47.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "chapter_13.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_13.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_13.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_13.html",
+              "RelativeToolTip": "javaScript\\chapter_13.html",
+              "ViewState": "AgIAAGcBAAAAAAAAAAAcwHYBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:45:14.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "chapter_3.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_3.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_3.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_3.html",
+              "RelativeToolTip": "javaScript\\chapter_3.html",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAcwNIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:35:33.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "chapter_2.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_2.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_2.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_2.html",
+              "RelativeToolTip": "javaScript\\chapter_2.html",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAcwFEBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:35:02.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "chapter_1.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\javaScript\\chapter_1.html",
+              "RelativeDocumentMoniker": "javaScript\\chapter_1.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\javaScript\\chapter_1.html",
+              "RelativeToolTip": "javaScript\\chapter_1.html",
+              "ViewState": "AgIAANEAAAAAAAAAAAAcwNoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:34:30.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "chapter-22.css",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-22.css",
+              "RelativeDocumentMoniker": "html\u0026css\\css\\chapter-22.css",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-22.css",
+              "RelativeToolTip": "html\u0026css\\css\\chapter-22.css",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T16:34:09.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "chapter-21.css",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-21.css",
+              "RelativeDocumentMoniker": "html\u0026css\\css\\chapter-21.css",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-21.css",
+              "RelativeToolTip": "html\u0026css\\css\\chapter-21.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T16:33:42.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "chapter-20.css",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-20.css",
+              "RelativeDocumentMoniker": "html\u0026css\\css\\chapter-20.css",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-20.css",
+              "RelativeToolTip": "html\u0026css\\css\\chapter-20.css",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T16:33:33.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "chapter-19.css",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-19.css",
+              "RelativeDocumentMoniker": "html\u0026css\\css\\chapter-19.css",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-19.css",
+              "RelativeToolTip": "html\u0026css\\css\\chapter-19.css",
+              "ViewState": "AgIAADsBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T16:33:23.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "chapter-18.css",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-18.css",
+              "RelativeDocumentMoniker": "html\u0026css\\css\\chapter-18.css",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-18.css",
+              "RelativeToolTip": "html\u0026css\\css\\chapter-18.css",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T16:33:15.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "chapter-17.css",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-17.css",
+              "RelativeDocumentMoniker": "html\u0026css\\css\\chapter-17.css",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-17.css",
+              "RelativeToolTip": "html\u0026css\\css\\chapter-17.css",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAAM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T16:32:06.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "chapter-1.css",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-1.css",
+              "RelativeDocumentMoniker": "html\u0026css\\css\\chapter-1.css",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\css\\chapter-1.css",
+              "RelativeToolTip": "html\u0026css\\css\\chapter-1.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T16:32:03.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "chapter-22.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-22.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter-22.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-22.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter-22.html",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAANAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:31:46.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "chapter-21.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-21.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter-21.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-21.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter-21.html",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:31:38.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "chapter-20.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-20.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter-20.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-20.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter-20.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:31:29.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "chapter-19.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-19.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter-19.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-19.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter-19.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:31:21.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "chapter-18.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-18.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter-18.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-18.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter-18.html",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:31:00.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "chapter-17.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-17.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter-17.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-17.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter-17.html",
+              "ViewState": "AgIAADUBAAAAAAAAAAAAADQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:30:33.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "chapter-16.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-16.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter-16.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-16.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter-16.html",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAcwHEBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:30:09.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "chapter-15.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-15.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter-15.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-15.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter-15.html",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:29:53.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "chapter-14.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-14.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter-14.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter-14.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter-14.html",
+              "ViewState": "AgIAACABAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:29:18.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "chapter_13.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_13.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_13.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_13.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_13.html",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAgwKMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:26:32.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "chapter_12.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_12.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_12.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_12.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_12.html",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:26:24.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "chapter_11.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_11.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_11.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_11.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_11.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:26:14.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "chapter_10.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_10.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_10.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_10.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_10.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:26:06.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "chapter_9.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_9.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_9.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_9.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_9.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:25:56.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "chapter_8.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_8.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_8.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_8.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_8.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:25:39.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "chapter_7.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_7.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_7.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_7.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_7.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:25:26.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "chapter_6.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_6.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_6.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_6.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_6.html",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAI0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:24:53.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "chapter_5.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_5.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_5.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_5.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_5.html",
+              "ViewState": "AgIAALMAAAAAAAAAAAAswMsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:22:55.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "chapter_4.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_4.html",
+              "RelativeDocumentMoniker": "html\u0026css\\chapter\\chapter_4.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\html\u0026css\\chapter\\chapter_4.html",
+              "RelativeToolTip": "html\u0026css\\chapter\\chapter_4.html",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAiwAEBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:22:05.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\course\\main preject\\1284615\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\course\\main preject\\1284615\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAcwKcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T16:13:31.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

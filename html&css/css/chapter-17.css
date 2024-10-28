@@ -1,0 +1,206 @@
+.text-title {
+    padding: 12px;
+    background-color: lightcoral;
+    margin: 18px 18px;
+}
+
+article {
+    padding: 12px;
+}
+
+article div {
+    border: 2px solid darkslategray;
+}
+
+.bg-color {
+    background-color: lightgray;
+}
+
+.b-img {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 420px; /*width*/
+    height: 420px;/*height*/
+    background-image: url("./../../bg-img.png"); /*background images*/
+}
+
+.b-img2 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 420px;
+    height: 420px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: repeat-x; /*repeat image horizontal*/
+}
+
+.b-img3 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 420px;
+    height: 420px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: repeat-y; /*repeat image vertical*/
+}
+
+.b-img4 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 420px;
+    height: 420px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: space;
+}
+
+.b-img5 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 420px;
+    height: 420px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: round;
+}
+
+.b-img6 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 420px;
+    height: 420px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: no-repeat;
+}
+
+.b-pos-1 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 380px;
+    height: 220px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.b-size-1 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 380px;
+    height: 220px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.b-size-2 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 380px;
+    height: 220px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: no-repeat;
+    background-size: 70% 80%;
+}
+
+.b-size-3 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 380px;
+    height: 220px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.b-size-4 {
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 380px;
+    height: 220px;
+    background-image: url("./../../bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    width: 380px;
+    height: 140px;
+    color: darkblue;
+    border: 14px solid darkblue;
+    padding: 50px;
+    background: url(./../../bg-img.png);
+    background-repeat: no-repeat;
+}
+
+.border-box {
+    background-origin: border-box;
+}
+
+.content-box {
+    background-origin: content-box;
+}
+
+.b-lg h1 {
+    height: 140px;
+    background: linear-gradient(rgb(162, 0, 255), rgb(21, 255, 0));
+}
+
+.b-lg h2 {
+    height: 140px;
+    background: linear-gradient(to right, rgb(200, 255, 0), rgb(255, 0, 255));
+}
+
+.b-lg h3 {
+    height: 140px;
+    background: linear-gradient(to bottom right, red, yellow);
+}
+
+.b-lg h4 {
+    height: 140px;
+    background: linear-gradient(-170deg, rgb(43, 255, 0), rgb(255, 115, 0));
+}
+
+.sprite {
+    background-image: url("./../../bg-img.png");
+    height: 70px;
+    width: 70px;
+    margin: 8px;
+    display: inline-block;
+}
+
+.testing {
+    background-position: -10px -10px;
+}
+
+.number-1 {
+    background-position: 0 0;
+}
+
+.number-2 {
+    background-position: -70px 0;
+}
+
+.number-3 {
+    background-position: -140px 0;
+}
+
+.number-4 {
+    background-position: 0 -70px;
+}
+
+.number-5 {
+    background-position: -70px -70px;
+}
+
+.number-6 {
+    background-position: -140px -70px;
+}
+
+.number-7 {
+    background-position: 0 -140px;
+}
+
+.number-8 {
+    background-position: -70px -140px;
+}
+
+.number-9 {
+    background-position: -140px -140px;
+}

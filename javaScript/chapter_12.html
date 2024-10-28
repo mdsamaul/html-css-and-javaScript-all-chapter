@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>chapter 12</title>
+    <link rel="stylesheet" type="text/css" href="./../style.css" />
+    <link rel="icon" type="image/x-icon" href="./../favicon.png" />
+
+    <style>
+        .formdiv {
+            margin: 20px auto;
+            padding: 20px;
+            width: 100%;
+            max-width: 600px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ccc;
+        }
+
+            .formdiv label {
+                display: block;
+                margin-bottom: 8px;
+                font-weight: bold;
+                color: #555;
+            }
+
+            .formdiv input[type="text"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 16px;
+                box-sizing: border-box;
+                transition: border-color 0.3s ease;
+            }
+
+                .formdiv input[type="text"]:focus {
+                    border-color: #007bff;
+                    outline: none;
+                }
+
+            .formdiv input[type="submit"] {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 12px 20px;
+                cursor: pointer;
+                font-size: 16px;
+                width: 100%;
+            }
+
+                .formdiv input[type="submit"]:hover {
+                    background-color: #0056b3;
+                }
+
+        /* Valid and Error Styles  */
+        [aria-invalid] {
+            background-color: #ffeeee;
+            border-color: #ff0000;
+        }
+
+        [role="alert"] {
+            background-color: #ffcccc;
+            font-weight: bold;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px dashed #ff0000;
+            color: #900;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="headTem">
+        <section class="navSection">
+            <div class="navDiv">
+                <div class="logo-section">
+                    <img src="./../images/Islamic_Development_Bank_logo.png" alt="" />
+                </div>
+                <div class="menu-section">
+                    <ul>
+                        <li><a href="./../index.html" class="active">Home</a></li>
+                        <li>
+                            <a href="./../html&css/chapter/chapter_1.html" class="active">HTML</a>
+                        </li>
+                        <li><a href="./../pages/JavaScript.html">JavaScript</a></li>
+                        <li><a href="./../pages/about.html">About</a></li>
+                        <li><a href="./../pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="profile-section">
+                    <div class="profile-menu">
+                        <div class="userImg" style="cursor: pointer">
+                            <img src="./../images/user.png" alt="" />
+                        </div>
+                        <div class="signInUp">
+                            <ul>
+                                <li><a href="#">Sign In</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner-section">
+            <div class="web-b-app">
+                <h2>Web Application Development Using ASP.NET</h2>
+            </div>
+            <div class="banner-botom">
+                <strong class="marqu-text-title">IsDB-BISEW IT Scholarship Programme</strong>
+                <div class="marque-text">
+                    <small>
+                        <marquee>
+                            <strong>IsDB-BISEW</strong> আইটি স্কলারশিপ প্রোগ্রাম সম্পূর্ণ
+                            বিনামূল্যে পেশাদার আইটি প্রশিক্ষণ প্রদান করে ৷ এই প্রোগ্রামটি
+                            উনিশ বছর ধরে চলছে ৷ এই প্রোগ্রামের লক্ষ্য মেধাবী মুসলিম
+                            প্রার্থীদেরকে আন্তর্জাতিক স্তরের পেশাদার আইটি প্রশিক্ষণ প্রদানের
+                            মাধ্যমে কর্মসংস্থানের ব্যবস্থা করা। প্রোগ্রামটি এ পর্যন্ত
+                            <strong>১৭,২৭৬</strong> জন আইটি প্রফেশনাল তৈরি করেছে যারা দেশ
+                            এবং বিদেশের <strong>৩,২৫৪</strong> টিরও বেশি প্রতিষ্ঠানে কর্মরত
+                            আছে ।
+                        </marquee>
+                    </small>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="mainTem-section">
+        <div class="mainTem">
+            <section class="left-section">
+                <div>
+                    <div class="chapter-text">
+                        <h2>Chapter 12</h2>
+                    </div>
+                    <div class="left-navbar">
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="./../javaScript/chapter_1.html">Chapter 1</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_2.html">Chapter 2</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_3.html">Chapter 3</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_4.html">Chapter 4</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_5.html">Chapter 5</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_6.html">Chapter 6</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_7.html">Chapter 7</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_8.html">Chapter 8</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_9.html">Chapter 9</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_10.html">Chapter 10</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_11.html">Chapter 11</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_12.html">Chapter 12</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_13.html">Chapter 13</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_14.html">Chapter 14</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_15.html">Chapter 15</a>
+                                </li>
+                                <li>
+                                    <a href="./../javaScript/chapter_16.html">Chapter 16</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </section>
+            <section class="right-body-part">
+                <div class="chapter-title">
+                    <h2>Working with HTML</h2>
+                </div>
+                <div class="article-part">
+                    <div class="article-contant">
+                        <div style="padding: 29px">
+                            <div id="container1">
+                                <p>This is container1.</p>
+                            </div>
+
+                            <div id="container2" class="container2">
+                                <p>this container2</p>
+                                <p>container 2 Some more text</p>
+                            </div>
+
+                            <ul>
+                                <li>samaul</li>
+                                <li>shihan</li>
+                                <li>mimma</li>
+                                <li>arafat</li>
+                            </ul>
+
+                            <button id="alert-btn">alert btn</button>
+
+                            <br />
+                            <div tabindex="10" role="button" id="click-me-div">
+                                Click me
+                            </div>
+                            <img width="100px" src="./../favicon.png" alt="" />
+
+                            <p>
+                                <img src="./../images/apple1.jpg"
+                                     width="150px"
+                                     alt="image description" />
+                            </p>
+                            <p>
+                                <img src="./../images/apple2.jpg"
+                                     width="150px"
+                                     alt="image description" />
+                            </p>
+                            <p>
+                                <img src="./../images/apple1.jpg"
+                                     width="150px"
+                                     alt="image description" />
+                            </p>
+                            <div id="img-container">
+                                <div id="myCard"
+                                     style="background-color: #42d9ff; color: #ff0022">
+                                    card
+                                </div>
+                            </div>
+                            <br />
+                            <hr />
+                            <br />
+
+                            <div id="target">
+                                <p>
+                                    Lorem ipsum,<br />
+                                    dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p>
+                                    Sequi possimus porro ullam, <br />
+                                    Wrought by nature's wondrous hand;
+                                </p>
+                                <p>
+                                    And in their silent beauty speak,<br />
+                                    odio sit deserunt iure enim accusamus explicabo omnis ab.
+                                </p>
+                                <p>
+                                    For Love Divine and sunny hours <br />
+                                    Iste, temporibus non! Inventore optio alias a ducimus nisi!
+                                </p>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="bangla" id="checkbox1" />
+                                <label>bangla</label>
+                            </div>
+
+                            <div>
+                                <form id="example" name="example" action="" method="post">
+                                    <fieldset>
+                                        <legend>Example Form</legend>
+                                        <div>
+                                            <label for="email">Email (required):</label>
+                                            <input type="email"
+                                                   id="email"
+                                                   name="email"
+                                                   value=""
+                                                   required />
+                                        </div>
+                                        <div>
+                                            <label for="postal">Postal Code:</label>
+                                            <input type="text"
+                                                   pattern="[0-9]*"
+                                                   id="postal"
+                                                   name="url"
+                                                   value="" />
+                                        </div>
+                                        <div id="error"></div>
+                                        <div>
+                                            <input type="submit" value="Submit" />
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <section class="formdiv">
+                                <form id="formTest">
+                                    <div>
+                                        <label for="fieldFirst">*First Field:</label><br />
+                                        <input id="fieldFirst"
+                                               name="fieldFirst"
+                                               type="text"
+                                               aria-required="true"
+                                               required />
+                                    </div>
+                                    <div>
+                                        <label for="secondfield">Second Field:</label><br />
+                                        <input id="secondfield" name="secondfield" type="text" />
+                                    </div>
+                                    <div>
+                                        <label for="fieldThird">Third Field (numeric):</label><br />
+                                        <input id="fieldThird" name="fieldThird" type="text" />
+                                    </div>
+                                    <div>
+                                        <label for="fourthfield">Fourth Field:</label><br />
+                                        <input id="fourthfield" name="fourthfield" type="text" />
+                                    </div>
+                                    <input type="submit" value="Send Data" />
+                                </form>
+                            </section>
+                        </div>
+                        <div>
+                            <script>
+                                const container1 = document.getElementById("container1");
+                                console.log(container1);
+                                const patentCont = container1.parentNode;
+                                console.log(patentCont);
+                                const childCont = container1.childNodes;
+                                console.log(childCont);
+                                const parentCont1 =
+                                    document.getElementById("container1").parentNode;
+                                console.log(parentCont1);
+
+                                let outString = "";
+                                if (container1.hasChildNodes()) {
+                                    const childs = container1.childNodes;
+                                    console.log(childs);
+                                    childs.forEach((child) => {
+                                        outString += `her child ${child.nodeName}`;
+                                    });
+                                }
+                                console.log(outString);
+                                //query selector all
+                                const names = document.querySelectorAll("li");
+                                names.forEach((name) => {
+                                    console.log(name.firstChild.data);
+                                });
+
+                                //event handler
+                                const clickHandler = (event) => {
+                                    window.alert("The element has been clicked!");
+                                };
+                                // select element
+                                const btn = document.getElementById("alert-btn");
+                                // add the event listener to the element and call 'clickHandler' function
+                                btn.addEventListener("click", clickHandler);
+
+                                const clickHandler2 = (event) => {
+                                    window.alert(
+                                        `The ${event.currentTarget.nodeName} this div clicked!`
+                                    );
+                                };
+                                const clickmeDiv = document.getElementById("click-me-div");
+                                clickmeDiv.addEventListener("click", clickHandler2);
+
+                                //12.4 Finding All Elements That Share an Attribute
+                                const allClass = document.querySelectorAll("*[class]");
+                                console.log(allClass);
+                                const allClassRead =
+                                    document.querySelectorAll('*[class="red"]');
+                                console.log(allClassRead);
+
+                                const divnotRed = document.querySelectorAll("div:not(.red)");
+                                console.log(divnotRed);
+                                //12.5 Accessing All Elements of a Specific Type
+
+                                const imgElements = document.getElementsByTagName("img");
+                                console.log(imgElements);
+
+                                const imgs = document.getElementsByTagName("img");
+                                console.log(imgs.length);
+                                const div = document.getElementById("img-container");
+                                const img = document.createElement("img");
+                                img.src = "./../images/banner.jpg";
+                                div.appendChild(img);
+                                img.style.width = "150px";
+
+                                const newcard = document.getElementById("myCard");
+                                newcard.setAttribute(
+                                    "style",
+                                    "background-color: red; color: #fff;"
+                                );
+
+                                // 12.9 Adding Text to a New Paragraph
+                                const newParagraph = document.createElement("p");
+                                const newParatext = document.createTextNode(
+                                    "New paragraph content"
+                                );
+                                const divs = newParagraph.appendChild(newParatext);
+                                div.appendChild(divs);
+
+                                ///
+                                // use getElementById to access the div element
+                                const paragraphparentdiv = document.getElementById("target");
+                                console.log(paragraphparentdiv);
+                                // get paragraph text
+                                const userText = prompt("new paragraph text", "");
+                                console.log(userText);
+                                // use getElementsByTagName and the collection index
+                                // to access the first paragraph
+                                const oldParagraph =
+                                    paragraphparentdiv.getElementsByTagName("p")[0];
+                                console.log(oldParagraph);
+                                // create a text node
+                                const txtNode = document.createTextNode(userText);
+                                console.log(txtNode);
+                                // create a new paragraph
+                                const paragraph = document.createElement("small");
+                                console.log(paragraph);
+                                // append the text to the paragraph, and insert the new para
+                                paragraph.appendChild(txtNode);
+                                paragraphparentdiv.insertBefore(paragraph, oldParagraph);
+
+                                //12.11 Checking If a Checkbox Is Checked
+                                const checkBox = document.getElementById("checkbox1");
+                                const validate = () => {
+                                    if (checkBox.checked) {
+                                        console.log("Checkbox is checked");
+                                    } else {
+                                        console.log("Checkbox is not checked");
+                                    }
+                                };
+                                checkBox.addEventListener("click", validate);
+
+                                // 12.15 Creating Hover-Based Pop-Up Info Windows
+
+                                //   window.onload = () => {
+                                //     const imgs = document.querySelectorAll("img");
+                                //     imgs.forEach((img) => {
+                                //       img.addEventListener(
+                                //         "mouseover",
+                                //         () => {
+                                //           getInfo(img.id);
+                                //         },
+                                //         false
+                                //       );
+                                //       img.addEventListener(
+                                //         "mouseout",
+                                //         () => {
+                                //           removeWindow();
+                                //         },
+                                //         false
+                                //       );
+                                //     });
+                                //   };
+
+                                // 12.16 Validating Form Data
+                                function userinputValidator(id, value) {
+                                    // email validity
+                                    if (id === "email") {
+                                        return validator.isEmail(value);
+                                    }
+                                    // check bd postal code validity
+                                    if (id === "postal") {
+                                        return validator.isPostalCode(value, "bd");
+                                    }
+                                    return false;
+                                }
+                                const userInputs =
+                                    document.querySelectorAll("#example input");
+                                userInputs.forEach((input) => {
+                                    // fire an event each time an input value changes
+                                    input.addEventListener("input", () => {
+                                        // pass the input value to the validation function
+                                        const valid = userinputValidator(input.id, input.value);
+                                        // if not valid set the aria-invalid attribute to true
+                                        if (!valid && input.value.length > 0) {
+                                            this.setAttribute("aria-invalid", "true");
+                                        }
+                                        console.log(valid);
+                                    });
+                                });
+                                console.log(userInputs);
+                            </script>
+                            <script>
+                                document.getElementById("fieldThird").onchange =
+                                    validateField;
+                                document.getElementById("fieldFirst").onblur = mandatoryField;
+                                document.getElementById("formTest").onsubmit = finalCheck;
+                                function removeAlert() {
+                                    var massege = document.getElementById("massege");
+                                    console.log(massege);
+                                    if (massege) {
+                                        document.body.removeChild(massege);
+                                    }
+                                }
+                                function resetField(element) {
+                                    element.parentNode.setAttribute(
+                                        "style",
+                                        "background-color: gray"
+                                    );
+                                    var valid = element.getAttribute("aria-invalid");
+                                    console.log(valid);
+                                    if (valid) element.removeAttribute("aria-invalid");
+                                }
+                                function badField(element) {
+                                    element.parentNode.setAttribute(
+                                        "style",
+                                        "background-color: #fffedd"
+                                    );
+                                    element.setAttribute("aria-invalid", "true");
+                                }
+                                function generateAlert(textValue) {
+                                    // create new text and div elements and set
+                                    // Aria and class values and id
+                                    var textNode = document.createTextNode(textValue);
+                                    console.log(textNode)
+                                    massege = document.createElement("div");
+                                    massege.setAttribute("role", "alert");
+                                    massege.setAttribute("id", "massege");
+                                    massege.setAttribute("class", "alert");
+                                    // append text to div, div to document
+                                    massege.appendChild(textNode);
+                                    document.body.appendChild(massege);
+                                }
+                                function validateField() {
+                                    // remove any existing alert regardless of value
+                                    removeAlert();
+                                    // check for number
+                                    if (!isNaN(this.value)) {
+                                        resetField(this);
+                                    } else {
+                                        badField(this);
+                                        generateAlert(
+                                            "You entered an invalid value in Third Field. " +
+                                            "Only numeric values such as 105 or 3.54 are allowed"
+                                        );
+                                    }
+                                }
+                                function mandatoryField() {
+                                    // remove any existing alert
+                                    removeAlert();
+                                    // check for value
+                                    if (this.value.length > 0) {
+                                        resetField(this);
+                                    } else {
+                                        badField(this);
+                                        generateAlert("You must enter a value into First Field");
+                                    }
+                                }
+                                function finalCheck() {
+                                    removeAlert();
+                                    var fields = document.querySelectorAll(
+                                        "[aria-invalid='true']"
+                                    );
+                                    if (fields.length > 0) {
+                                        generateAlert(
+                                            "You have incorrect field entries that must be fixed " +
+                                            "before you can submit this form"
+                                        );
+                                        return false;
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <section class="socil-link-section">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="socil-link">
+                        <ul>
+                            <li>
+                                <a href="#"> <img src="./../images/facebook.png" /></a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./../images/youtube.png" /></a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./../images/twitter.png" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer class="footTem">
+        <div class="foot-text">
+            <div>
+                <small style="
+              color: #fff;
+              text-shadow: -5px 4px 6px black, 5px -4px 6px black;
+            ">isdb-bisew</small>
+            </div>
+            <div><small>copyright &copy; 2024</small></div>
+            <div>
+                <small style="
+              color: #fff;
+              text-shadow: -5px 4px 6px black, 5px -4px 6px black;
+            ">md. samaul islam</small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.text-title {
+    padding: 10px;
+    background-color: #e0f7fa;
+    margin: 15px 10px;
+    border-radius: 5px;
+}
+
+article {
+    padding: 10px;
+}
+
+article div {
+    border: 1px solid #4caf50;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+:root {
+    --a-global-color: #ff5722;
+}
+
+section {
+    --a-local-color: #2196f3;
+}
+
+.header {
+    color: var(--a-global-color);
+    font-weight: bold;
+}
+
+.footer {
+    color: var(--a-local-color);
+}
+
+.header,
+.footer {
+    height: 40px;
+    line-height: 40px;
+}
+
+.header {
+    border-bottom: 2px solid #333;
+}
+
+.footer {
+    border-top: 2px solid #333;
+    text-align: center;
+}
+
+.main-content {
+    min-height: calc(100vh - 96px);
+    background-color: #f9fbe7;
+}
+
+.long-content {
+    border: 1px solid #ccc;
+}
+
+.body {
+    font-size: 14px;
+    counter-reset: my-section;
+}
+
+.h1 {
+    counter-reset: my-sub-section;
+}
+
+.h1::before {
+    counter-increment: my-section;
+    content: "Section " counter(my-section) ". ";
+    font-weight: bold;
+}
+
+.h2::before {
+    counter-increment: my-sub-section;
+    content: counter(my-section) "." counter(my-sub-section) " ";
+    font-style: italic;
+}
+
+.article:hover {
+    background-color: #e1f5fe;
+    transition: background-color 0.3s;
+}

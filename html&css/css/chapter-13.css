@@ -1,0 +1,65 @@
+.text-title {
+    padding: 5px;
+    background-color: lightblue;
+    margin: 10px 10px;
+}
+
+article {
+    padding: 5px;
+}
+
+article div {
+    border: 1px solid darkgreen;
+}
+
+h1 {
+    color: teal;
+}
+
+p {
+    color: navy;
+}
+
+h1 {
+    color: coral;
+}
+
+h1 {
+    color: darkorange;
+}
+
+* {
+    color: black;
+}
+
+body h1 {
+    color: gold;
+}
+
+.heading {
+    color: darkgreen;
+}
+
+body .heading {
+    color: lightblue;
+}
+
+.heading.first {
+    color: purple;
+}
+
+#heading-one {
+    color: crimson;
+}
+
+.parent {
+    color: darkred;
+}
+
+.line {
+    color: limegreen;
+}
+
+.first-line {
+    color: inherit;
+}

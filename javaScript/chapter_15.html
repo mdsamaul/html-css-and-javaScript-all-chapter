@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="./../style.css">
+    <link rel="icon" type="image/x-icon" href="./../favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        svg {
+            border: 1px solid #ccc;
+            /* Add a border around the SVG for better visibility */
+            background-color: #fff;
+            /* White background for the SVG */
+        }
+
+        .bar {
+            transition: fill 0.3s;
+        }
+
+            .bar:hover {
+                fill: #ff6347; /* Change color on mouse hover */
+            }
+
+        .label {
+            fill: white;
+            font-size: 12px;
+            text-anchor: middle; /* Center the text */
+        }
+
+        #myCanvas {
+            border: 1px solid #000;
+        }
+
+        audio {
+            margin: 20px 0;
+            outline: none; /* Remove default outline */
+        }
+
+        .audio-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            display: inline-block; /* Center the container */
+        }
+
+        p {
+            margin: 10px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header id="headTem">
+        <section class="navSection">
+            <div class="navDiv">
+                <div class="logo-section">
+                    <img src="./../images/Islamic_Development_Bank_logo.png" alt="">
+                </div>
+                <div class="menu-section">
+                    <ul>
+                        <li><a href="./../index.html" class="active">Home</a></li>
+                        <li><a href="./../html&css/chapter/chapter_1.html" class="active">HTML</a></li>
+                        <li><a href="./../pages/JavaScript.html">JavaScript</a></li>
+                        <li><a href="./../pages/about.html">About</a></li>
+                        <li><a href="./../pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="profile-section">
+                    <div class="profile-menu">
+                        <div class="userImg" style="cursor:pointer;">
+                            <img src="./../images/user.png" alt="">
+                        </div>
+                        <div class="signInUp">
+                            <ul>
+                                <li><a href="#">Sign In</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner-section">
+            <div class="web-b-app">
+                <h2>Web Application Development Using ASP.NET</h2>
+            </div>
+            <div class="banner-botom">
+                <strong class="marqu-text-title">IsDB-BISEW IT Scholarship Programme</strong>
+                <div class="marque-text">
+                    <small>
+                        <marquee>
+                            <strong>IsDB-BISEW</strong> আইটি স্কলারশিপ প্রোগ্রাম সম্পূর্ণ
+                            বিনামূল্যে পেশাদার আইটি প্রশিক্ষণ প্রদান করে ৷ এই প্রোগ্রামটি
+                            উনিশ বছর ধরে চলছে ৷ এই প্রোগ্রামের লক্ষ্য মেধাবী মুসলিম
+                            প্রার্থীদেরকে আন্তর্জাতিক স্তরের পেশাদার আইটি প্রশিক্ষণ প্রদানের
+                            মাধ্যমে কর্মসংস্থানের ব্যবস্থা করা। প্রোগ্রামটি এ পর্যন্ত
+                            <strong>১৭,২৭৬</strong> জন আইটি প্রফেশনাল তৈরি করেছে যারা দেশ
+                            এবং বিদেশের <strong>৩,২৫৪</strong> টিরও বেশি প্রতিষ্ঠানে কর্মরত
+                            আছে ।
+                        </marquee>
+                    </small>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="mainTem-section">
+        <div class="mainTem">
+            <section class="left-section">
+                <div>
+                    <div class="chapter-text">
+                        <h2>JavaScript</h2>
+                    </div>
+                    <div class="left-navbar">
+                        <div>
+                            <ul>
+                                <li><a href="./../javaScript/chapter_1.html">Chapter 1</a></li>
+                                <li><a href="./../javaScript/chapter_2.html">Chapter 2</a></li>
+                                <li><a href="./../javaScript/chapter_3.html">Chapter 3</a></li>
+                                <li><a href="./../javaScript/chapter_4.html">Chapter 4</a></li>
+                                <li><a href="./../javaScript/chapter_5.html">Chapter 5</a></li>
+                                <li><a href="./../javaScript/chapter_6.html">Chapter 6</a></li>
+                                <li><a href="./../javaScript/chapter_7.html">Chapter 7</a></li>
+                                <li><a href="./../javaScript/chapter_8.html">Chapter 8</a></li>
+                                <li><a href="./../javaScript/chapter_9.html">Chapter 9</a></li>
+                                <li><a href="./../javaScript/chapter_10.html">Chapter 10</a></li>
+                                <li><a href="./../javaScript/chapter_11.html">Chapter 11</a></li>
+                                <li><a href="./../javaScript/chapter_12.html">Chapter 12</a></li>
+                                <li><a href="./../javaScript/chapter_13.html">Chapter 13</a></li>
+                                <li><a href="./../javaScript/chapter_14.html">Chapter 14</a></li>
+                                <li><a href="./../javaScript/chapter_15.html">Chapter 15</a></li>
+                                <li><a href="./../javaScript/chapter_16.html">Chapter 16</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </section>
+            <section class="right-body-part">
+                <div class="chapter-title">
+                    <h2>
+                        Islamic Development Bank Bangladesh Islamic Solidarity Educational Wakf
+                    </h2>
+                </div>
+                <div class="article-part" style="overflow:scroll; width:100%; display:block; padding:10px 40px; box-sizing:border-box;">
+                    <div>
+                        <h1>Chapter 15</h1>
+                        <h1>Click the Square to Change Color</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600">
+                            <script type="text/ecmascript">
+                                // set element onclick event handler
+                                window.onload = function () {
+                                    const square = document.getElementById('square');
+                                    // onclick event handler, change square color
+                                    square.onclick = function click() {
+                                        const color = this.getAttribute('fill');
+                                        if (color === '#ff0000') {
+                                            this.setAttribute('fill', '#0000ff'); // Change to blue
+                                        } else {
+                                            this.setAttribute('fill', '#ff0000'); // Change to red
+                                        }
+                                    };
+                                };
+                            </script>
+                            <rect id="square" width="400" height="400" fill="#ff0000" x="10" y="10" />
+                        </svg>
+
+                        <h1>Click the Square to Change Color</h1>
+
+
+                        <svg width="600" height="600">
+                            <script type="text/javascript">
+                                // set element onclick event handler
+                                function init() {
+                                    const square = document.getElementById('square1');
+                                    // onclick event handler, change square color
+                                    square.onclick = function () {
+                                        const color = this.getAttribute('fill');
+                                        this.setAttribute('fill', color === '#ff0000' ? '#0000ff' : '#ff0000');
+                                    };
+                                }
+
+                                // Call init when the SVG is fully loaded
+                                document.addEventListener("DOMContentLoaded", init);
+                            </script>
+                            <rect id="square1" width="400" height="400" fill="#ff0000" x="10" y="10" />
+                        </svg>
+
+                        <h1>Click the Square to Change Color and Shape</h1>
+
+                        <svg width="600" height="600">
+                            <script type="text/javascript">
+                                document.addEventListener("DOMContentLoaded", function () {
+                                    const square = document.getElementById('shape');
+
+                                    // Onclick event handler to change the square color and shape
+                                    square.addEventListener('click', function () {
+                                        const currentColor = this.getAttribute('fill');
+                                        const currentRx = this.getAttribute('rx');
+
+                                        // Change color
+                                        this.setAttribute('fill', currentColor === '#ff0000' ? '#0000ff' : '#ff0000');
+
+                                        // Change to rounded rectangle (circle) or back to square
+                                        if (currentRx === '50') {
+                                            this.setAttribute('rx', '0'); // Change to square
+                                            this.setAttribute('width', '400'); // Restore width
+                                            this.setAttribute('height', '400'); // Restore height
+                                        } else {
+                                            this.setAttribute('rx', '200'); // Change to circle
+                                            this.setAttribute('width', '400'); // Maintain width
+                                            this.setAttribute('height', '400'); // Maintain height
+                                        }
+                                    });
+                                });
+                            </script>
+                            <rect id="shape" width="400" height="400" fill="#ff0000" x="10" y="10" />
+                        </svg>
+
+                        <object type="image/svg+xml" data="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/scimitar.svg">
+                            <img src="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/scimitar.svg" />
+                        </object>
+                        <h1>Modify SVG with JavaScript</h1>
+
+                        <!-- Inline SVG -->
+                        <svg id="mySVG" width="400" height="400">
+                            <rect id="square2" width="400" height="400" fill="#ff0000" />
+                        </svg>
+
+                        <script>
+                            window.onload = function onLoad() {
+                                const svgdoc = document.getElementById('mySVG');
+                                const square = svgdoc.getElementById('square2');
+                                square.setAttribute('width', '900');
+                            };
+                        </script>
+
+
+
+                        <h1>Bar Chart Example with D3.js</h1>
+
+                        <script type="text/javascript">
+                            const data = [56, 99, 14, 12, 46, 33, 22, 100, 87, 6, 55, 44, 27, 28, 34];
+                            const height = 400;
+                            const barWidth = 25;
+
+                            const x = d3.scaleLinear()
+                                .domain([0, d3.max(data)])
+                                .range([0, height]);
+
+                            const svg = d3.select('body')
+                                .append('svg')
+                                .attr('width', data.length * (barWidth + 1))
+                                .attr('height', height);
+
+                            svg.selectAll('rect')
+                                .data(data)
+                                .enter()
+                                .append('rect')
+                                .attr('class', 'bar')
+                                .attr('fill', (d) => {
+                                    // Change bar color based on value
+                                    return d > 50 ? '#008b8b' : '#ffa07a';
+                                })
+                                .attr('x', (d, i) => i * (barWidth + 1))
+                                .attr('y', (d) => height - x(d))
+                                .attr('width', barWidth)
+                                .attr('height', (d) => x(d));
+
+                            // Add labels on top of the bars
+                            svg.selectAll('text')
+                                .data(data)
+                                .enter()
+                                .append('text')
+                                .attr('class', 'label')
+                                .attr('x', (d, i) => i * (barWidth + 1) + barWidth / 2)
+                                .attr('y', (d) => height - x(d) - 5) // Position above the bar
+                                .text((d) => d);
+                        </script>
+                        <h1>Modify SVG with JavaScript</h1>
+
+                        <!--<object id="object" type="image/svg+xml" data="/" width="600" height="600">
+                            <p>No SVG support</p>
+                        </object>-->
+
+                        <script type="text/javascript">
+                            const object = document.getElementById('object');
+
+                            // Wait for the SVG to load
+                            object.onload = function () {
+                                let svgdoc;
+                                // Get access to the SVG document object
+                                try {
+                                    svgdoc = object.contentDocument;
+                                } catch (e) {
+                                    console.log('Error accessing SVG document:', e);
+                                    return;
+                                }
+
+                                // Ensure the SVG document is successfully accessed
+                                if (!svgdoc) {
+                                    console.log('No SVG document found');
+                                    return;
+                                }
+
+                                // Get the SVG element you want to modify
+                                const square = svgdoc.getElementById('square4'); // Make sure the ID matches your SVG element
+
+                                // Check if the element exists
+                                if (!square) {
+                                    console.log('Element with ID "square4" not found in the SVG');
+                                    return;
+                                }
+
+                                // Set click event on the SVG element
+                                square.onclick = function () {
+                                    let width = parseFloat(square.getAttribute('width'));
+                                    width -= 50; // Decrease width by 50
+                                    if (width < 0) width = 0; // Prevent negative width
+                                    square.setAttribute('width', width);
+
+                                    const color = square.getAttribute('fill');
+                                    // Toggle colors
+                                    if (color === 'blue') {
+                                        square.setAttribute('fill', 'yellow');
+                                        square.setAttribute('stroke', 'green');
+                                    } else {
+                                        square.setAttribute('fill', 'blue');
+                                        square.setAttribute('stroke', 'red');
+                                    }
+                                };
+                            };
+                        </script>
+                        <rect id="square4" width="400" height="400" fill="blue" />
+
+
+
+                        <h1>Canvas and SVG Example</h1>
+
+                        <canvas id="myCanvas" width="400" height="200">
+                            <p>Your browser does not support the HTML5 canvas tag.</p>
+                        </canvas>
+
+                        <svg id="svgelem" width="400" height="200">
+                            <title>SVG Circle</title>
+                            <circle id="redcircle2" cx="300" cy="100" r="50" fill="red" stroke="#000" />
+                        </svg>
+
+                        <script type="text/javascript">
+                            // Canvas drawing
+                            window.onload = function () {
+                                var context = document.getElementById("myCanvas").getContext('2d');
+                                context.fillStyle = 'rgba(0, 200, 0, 0.7)';
+                                context.fillRect(0, 0, 100, 100); // Draw a green rectangle
+                            };
+
+                            // SVG interaction
+                            document.getElementById("redcircle2").onclick = function () {
+                                alert("You clicked the red circle!");
+                                this.setAttribute("fill", "orange"); // Change color on click
+                            };
+                        </script>
+
+
+                        <h1>SVG and Canvas Example</h1>
+
+                        <svg id="svgelem2" height="400" width="600">
+                            <script type="text/javascript">
+                                window.onload = function () {
+                                    var context2 = document.getElementById("thisCanvas").getContext('2d');
+                                    context2.fillStyle = "#ff0000"; // Red color
+                                    context2.fillRect(0, 0, 200, 200); // Draw a filled rectangle
+                                };
+                            </script>
+
+                            <foreignObject width="300" height="150">
+                                <canvas width="300" height="150" id="thisCanvas">
+                                    Alternate content for browsers that do not support Canvas.
+                                </canvas>
+                            </foreignObject>
+
+                            <circle id="redcircle" cx="400" cy="100" r="100" fill="red" stroke="#000" />
+                            <text x="400" y="100" text-anchor="middle" fill="#fff" font-size="20">Circle</text>
+                        </svg>
+
+                        <h1>Listen to Meadow Sounds</h1>
+
+                        <div class="audio-container">
+                            <audio id="meadow2" controls>
+                                <source src="samaul.mp3" title="YouTube video player" type="audio/wav" />
+                                <p>Your browser does not support the audio element.</p>
+                                <a href="samaul.mp3" title="YouTube video player">Download Meadow Sounds</a>
+                            </audio>
+                            <p>Enjoy the calming sounds of nature!</p>
+                        </div>
+
+                        <h1>Controlling Video from JavaScript with the video Element</h1>
+                        <video id="meadow" controls width="550px">
+                            <source src="./idb.mp4" title="Idb 2nd campus" type="video/mp4" />
+                            <source src="./idb.mp4" title="Idb 2nd campus" type="video/webm" />
+                        </video>
+                        <div id="feedback"></div>
+                        <div id="controls">
+                            <button id="start">Play</button>
+                            <button id="stop">Stop</button>
+                            <button id="pause">Pause</button>
+                        </div>
+                        <script src="video.js"></script>
+
+
+                    </div>
+                </div>
+                <section class="socil-link-section">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="socil-link">
+                        <ul>
+                            <li>
+                                <a href="#"> <img src="./../../images/facebook.png" /></a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./../../images/youtube.png" /></a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./../../images/twitter.png" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer class="footTem">
+        <div class="foot-text">
+            <div>
+                <small style="color: #fff; text-shadow: -5px 4px 6px black,5px -4px 6px black; ">isdb-bisew</small>
+            </div>
+            <div><small>copyright &copy; 2024</small></div>
+            <div>
+                <small style="color: #fff; text-shadow: -5px 4px 6px black,5px -4px 6px black; ">
+                    md. samaul
+                    islam
+                </small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

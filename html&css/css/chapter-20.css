@@ -1,0 +1,224 @@
+.text-title {
+    padding: 5px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+article {
+    padding: 5px;
+}
+
+article div {
+    border: 1px solid green;
+}
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: red;
+    transition: width 2s;
+}
+
+.div1:hover {
+    width: 300px;
+}
+
+.div2 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: red;
+    transition: width 2s, height 4s, transform 2s;
+}
+
+.div2:hover {
+    width: 300px;
+    height: 300px;
+    transform: skewX(50deg);
+}
+
+.div3 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: red;
+    transition: width 2s, height 4s;
+    transition-delay: 1s;
+}
+
+.div3:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.div4 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: red;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-out;
+}
+
+.div4:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.div5 {
+    transition: width 2s; /*transition width after 2s onload pages*/
+}
+
+.div6 {
+    transition: width 2s linear 1s; /**/
+}
+
+
+@keyframes colorAnimation { /*animation*/
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+        border-radius: 25%;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+        border-bottom: 50%;
+    }
+}
+
+.div7 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: colorAnimation 2s forwards infinite; 
+}
+
+.div8 {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation: colorAnimation 4s alternate-reverse infinite; 
+}
+
+.div9 {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation: colorAnimation 4s backwards infinite; 
+    animation-delay: 2s;
+}
+
+@keyframes moveAnimation {
+    from {
+        left: 0;
+    }
+    to {
+        left: 300px;
+        background: linear-gradient(75deg , red, green, blue);
+        border-radius: 50%;
+    }
+}
+
+.div10 {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    position: relative;
+    animation: moveAnimation 4s infinite alternate;
+}
+
+.div11 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation: moveAnimation 4s infinite alternate-reverse; 
+}
+
+.div12 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation: moveAnimation 4s infinite alternate; 
+}
+
+.div13 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation: moveAnimation 4s ease-out infinite;
+}
+
+.div14 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation: moveAnimation 4s infinite alternate linear;
+}
+
+.div15 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation: moveAnimation 4s linear infinite alternate;
+}
+@keyframes roundAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+        background-color: red;
+    }
+    50% {
+        transform: scale(1.5);
+        background-color: yellow;
+        opacity: 100%;
+    }
+    100% {
+        transform: scale(1);
+        background-color: green;
+        opacity: 0;
+    }
+}
+
+.round-shape {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%; 
+    animation: roundAnimation 4s infinite; 
+}
+@keyframes roundAnimation2 {
+    0% {
+        opacity: 100%;
+        transform: scale(1);
+        background-color: red;
+    }
+    50% {
+        transform: scale(1.5);
+        background-color: yellow;
+        opacity: 0%;
+    }
+    100% {
+        transform: scale(1);
+        background-color: green;
+        opacity: 0%;
+    }
+}
+
+.round-shape2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%; 
+    animation: roundAnimation2 4s infinite;  /*infinity*/
+}

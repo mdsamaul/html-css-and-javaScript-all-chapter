@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="./../style.css">
+    <link rel="icon" type="image/x-icon" href="./../favicon.png">
+</head>
+
+<body>
+    <header id="headTem">
+        <section class="navSection">
+            <div class="navDiv">
+                <div class="logo-section">
+                    <img src="./../images/Islamic_Development_Bank_logo.png" alt="">
+                </div>
+                <div class="menu-section">
+                    <ul>
+                        <li><a href="./../index.html" class="active">Home</a></li>
+                        <li><a href="./../html&css/chapter/chapter_1.html" class="active">HTML</a></li>
+                        <li><a href="./../pages/JavaScript.html">JavaScript</a></li>
+                        <li><a href="./../pages/about.html">About</a></li>
+                        <li><a href="./../pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="profile-section">
+                    <div class="profile-menu">
+                        <div class="userImg" style="cursor:pointer;">
+                            <img src="./../images/user.png" alt="">
+                        </div>
+                        <div class="signInUp">
+                            <ul>
+                                <li><a href="#">Sign In</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner-section">
+            <div class="web-b-app">
+                <h2>Web Application Development Using ASP.NET</h2>
+            </div>
+            <div class="banner-botom">
+                <strong class="marqu-text-title">IsDB-BISEW IT Scholarship Programme</strong>
+                <div class="marque-text">
+                    <small>
+                        <marquee>
+                            <strong>IsDB-BISEW</strong> আইটি স্কলারশিপ প্রোগ্রাম সম্পূর্ণ
+                            বিনামূল্যে পেশাদার আইটি প্রশিক্ষণ প্রদান করে ৷ এই প্রোগ্রামটি
+                            উনিশ বছর ধরে চলছে ৷ এই প্রোগ্রামের লক্ষ্য মেধাবী মুসলিম
+                            প্রার্থীদেরকে আন্তর্জাতিক স্তরের পেশাদার আইটি প্রশিক্ষণ প্রদানের
+                            মাধ্যমে কর্মসংস্থানের ব্যবস্থা করা। প্রোগ্রামটি এ পর্যন্ত
+                            <strong>১৭,২৭৬</strong> জন আইটি প্রফেশনাল তৈরি করেছে যারা দেশ
+                            এবং বিদেশের <strong>৩,২৫৪</strong> টিরও বেশি প্রতিষ্ঠানে কর্মরত
+                            আছে ।
+                        </marquee>
+                    </small>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="mainTem-section">
+        <div class="mainTem">
+            <section class="left-section">
+                <div>
+                    <div class="chapter-text">
+                        <h2>Chapter 9</h2>
+                    </div>
+                    <div class="left-navbar">
+                        <div>
+                            <ul>
+                                <li><a href="./../javaScript/chapter_1.html">Chapter 1</a></li>
+                                <li><a href="./../javaScript/chapter_2.html">Chapter 2</a></li>
+                                <li><a href="./../javaScript/chapter_3.html">Chapter 3</a></li>
+                                <li><a href="./../javaScript/chapter_4.html">Chapter 4</a></li>
+                                <li><a href="./../javaScript/chapter_5.html">Chapter 5</a></li>
+                                <li><a href="./../javaScript/chapter_6.html">Chapter 6</a></li>
+                                <li><a href="./../javaScript/chapter_7.html">Chapter 7</a></li>
+                                <li><a href="./../javaScript/chapter_8.html">Chapter 8</a></li>
+                                <li><a href="./../javaScript/chapter_9.html">Chapter 9</a></li>
+                                <li><a href="./../javaScript/chapter_10.html">Chapter 10</a></li>
+                                <li><a href="./../javaScript/chapter_11.html">Chapter 11</a></li>
+                                <li><a href="./../javaScript/chapter_12.html">Chapter 12</a></li>
+                                <li><a href="./../javaScript/chapter_13.html">Chapter 13</a></li>
+                                <li><a href="./../javaScript/chapter_14.html">Chapter 14</a></li>
+                                <li><a href="./../javaScript/chapter_15.html">Chapter 15</a></li>
+                                <li><a href="./../javaScript/chapter_16.html">Chapter 16</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </section>
+            <section class="right-body-part">
+                <div class="chapter-title">
+                    <h2>
+                        Asynchronous Programming
+
+                    </h2>
+                </div>
+                <div class="article-part">
+                    <div>
+                        <div>
+                            <div id="status"></div>
+                            <div>
+                                <img id="imgDownload" style="height: 500px; width: 500px;" alt="">
+                            </div>
+                            <div>
+                                <img id="imgDownload2" style="height: 500px; width: 500px;" alt="">
+                            </div>
+
+                            <div>
+                                <input id="from" type="number">
+                                <input id="to" type="number">
+                                <p id="status">status</p>
+                                <h3 id="primeContainer">primeContainer</h3>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <script>
+                                let worker;
+                                function startSearch() {
+                                    // Create the worker
+                                    worker = new Worker('prime-worker.js');
+                                    const statusDisplay = document.getElementById('status');
+                                    statusDisplay.textContent = 'Search started.';
+                                    // Report error message on the page
+                                    worker.onerror = error => {
+                                        statusDisplay.textContent = error.message;
+                                    };
+                                    // Respond to messages from the worker, and display the final result
+                                    // (the list of primes) on the page when it's received
+                                    worker.onmessage = event => {
+                                        const primes = event.data;
+                                        document.getElementById('primeContainer').textContent = primes.join(', ');
+                                    };
+                                    // Get the search range and tell the worker to start
+                                    const fromNumber = document.getElementById('from').value;
+                                    const toNumber = document.getElementById('to').value;
+                                    worker.postMessage({ from: fromNumber, to: toNumber });
+                                }
+                                onmessage = (event) => {
+                                    // Get the sent object from event.data and call the time-consuming
+                                    // findPrimes() method to do the search
+                                    const primes = findPrimes(Number(event.data.from), Number(event.data.to));
+                                    // Send back the result
+                                    postMessage(primes);
+                                };
+                            </script>
+
+                            <script>
+                                function doWork() {
+                                    // Get the <p> element to change
+                                    const statusElement = document.getElementById('status');
+                                    // Track the time and the number of passes through the loop
+                                    const startTime = Date.now();
+                                    let counter = 0;
+                                    statusElement.innerText = 'Processing started';
+                                    while ((Date.now() - startTime < 1000)) {
+                                        counter += 1;
+                                        statusElement.innerText = `Just generated number ${counter}`;
+                                    }
+                                    statusElement.innerText = 'Processing completed';
+                                }
+                                doWork();
+
+                                function doWorkInChunks() {
+                                    // Get the <p> element to change
+                                    const statusElement = document.getElementById("status");
+                                    // Track the time and the number of passes through the loop
+                                    const startTime = Date.now();
+                                    let counter = 0;
+                                    statusElement.innerText = 'Processing started';
+                                    // Create an anonymous function that does one chunk of work
+                                    const doChunkedTask = () => {
+                                        if (Date.now() - startTime < 1000) {
+                                            counter += 1;
+                                            statusElement.innerText = `Just generated number ${counter}`;
+                                            // Call the function again, for the next chunk
+                                            setTimeout(doChunkedTask, 0);
+                                        }
+                                        else {
+                                            statusElement.innerText = 'Processing completed';
+                                        }
+                                    };
+                                    // Start the process by calling the function for the first time
+                                    doChunkedTask();
+                                }
+                                doWorkInChunks()
+
+                                const promise = fetch(
+                                    'https://upload.wikimedia.org/wikipedia/commons/b/b2/Eagle_nebula_pillars.jpg');
+                                // Supply a function that logs successful requests
+                                promise.then(function onSuccess(response) {
+                                    console.log(`HTTP status: ${response.status}`);
+                                });
+                                // Supply a function that logs errors
+                                promise.catch(function onError(error) {
+                                    console.error(`Error: ${error}`);
+                                });
+                                // Supply a function that runs either way
+                                promise.finally(function onFinally() {
+                                    console.log('All done');
+                                });
+
+                                fetch(
+                                    'https://upload.wikimedia.org/wikipedia/commons/b/b2/Eagle_nebula_pillars.jpg')
+                                    .then(response => {
+                                        console.log(response);
+                                        console.log(`HTTP status: ${response.status}`);
+                                    })
+                                    .catch(error => {
+                                        console.error(`Error: ${error}`);
+                                    })
+                                    .finally(() => {
+                                        console.log('All done');
+                                    });
+
+                                fetch(
+                                    'https://upload.wikimedia.org/wikipedia/commons/b/b2/Eagle_nebula_pillars.jpg')
+                                    .then(response => response.blob())
+                                    .then(blob => {
+                                        const img = document.getElementById('imgDownload');
+                                        img.src = URL.createObjectURL(blob);
+                                    });
+
+                                fetch(
+                                    'https://upload.wikimedia.org/wikipedia/commons/b/b2/Eagle_nebula_pillars.jpg')
+                                    .then(response => {
+                                        if (!response.ok) {
+                                            // Ordinarily, it's not an error if the server responds to our request
+                                            // Now, let's treat any response other than HTTP 200 OK as an error
+                                            throw new Error(`HTTP code: ${response.status}`);
+                                        }
+                                        else {
+                                            return response.blob();
+                                        }
+                                    })
+                                    .then(blob => {
+                                        const img = document.getElementById('imgDownload');
+                                        img.src = URL.createObjectURL(blob);
+                                    })
+                                    .catch(error => {
+                                        console.log('An error occurred in the first or second promise');
+                                    });
+
+
+
+                                function factorializeNumber(number, successCallback, failureCallback) {
+                                    if (number < 0) {
+                                        failureCallback(
+                                            new Error('Factorials are only defined for positive numbers'));
+                                    }
+                                    else if (number !== Math.trunc(number)) {
+                                        failureCallback(new Error('Factorials are only defined for integers'));
+                                    }
+                                    else {
+                                        setTimeout(() => {
+                                            if (number === 0 || number === 1) {
+                                                successCallback(1);
+                                            }
+                                            else {
+                                                let result = number;
+                                                while (number > 1) {
+                                                    number -= 1;
+                                                    result *= number;
+                                                }
+                                                successCallback(result);
+                                            }
+                                        }, 5000); // This hard-coded 5-second delay simulates a long async process
+                                    }
+                                }
+
+                                function logResult(result) {
+                                    console.log(`5! = ${result}`);
+                                }
+                                function logError(error) {
+                                    console.log(`Error: ${error.message}`);
+                                }
+                                factorializeNumber(5, logResult, logError);
+
+                                function factorializeNumberPromise(number) {
+                                    return new Promise((resolve, reject) => {
+                                        factorializeNumber(number,
+                                            result => {
+                                                resolve(result);
+                                            },
+                                            error => {
+                                                reject(error);
+                                            });
+                                    });
+                                }
+
+                                function randomWaitPromise() {
+                                    return new Promise((resolve, reject) => {
+                                        // Decide how long to wait
+                                        const waitMilliseconds = Math.round(Math.random() * 10000);
+                                        // Simulate an asynchronous task with setTimeout()
+                                        setTimeout(() => {
+                                            console.log(`Resolved after ${waitMilliseconds}`);
+                                            // Return the number of seconds waited
+                                            resolve(waitMilliseconds);
+                                        }, waitMilliseconds);
+                                    });
+                                }
+
+                                const promise1 = randomWaitPromise();
+                                const promise2 = randomWaitPromise();
+                                const promise3 = randomWaitPromise();
+                                const promises = [promise1, promise2, promise3];
+                                // Wait for all of them, then log the result
+                                Promise.all(promises).then(values => {
+                                    console.log(`All done with: ${values}`);
+                                });
+
+
+                                const url =
+                                    'https://upload.wikimedia.org/wikipedia/commons/b/b2/Eagle_nebula_pillars.jpg';
+                                fetch(url)
+                                    .then(response => {
+                                        // The fetch operation has completed
+                                        console.log(`HTTP status: ${response.status}`);
+                                        console.log('All asynchronous steps completed');
+                                    })
+
+
+                                async function getImage() {
+                                    const url =
+                                        'https://upload.wikimedia.org/wikipedia/commons/b/b2/Eagle_nebula_pillars.jpg';
+                                    const response = await fetch(url);
+                                    // The fetch operation has completed and the promise is resolved or rejected
+                                    console.log(`HTTP status: ${response.status}`);
+                                }
+                                getImage().then(() => {
+                                    console.log('All asynchronous steps completed');
+                                });
+
+                                async function getImage() {
+                                    const url =
+                                        'https://upload.wikimedia.org/wikipedia/commons/b/b2/Eagle_nebula_pillars.jpg';
+                                    try {
+                                        const response = await fetch(url);
+                                        console.log(`HTTP status: ${response.status}`);
+                                    }
+                                    catch (err) {
+                                        console.error(`Error: ${error}`);
+                                    }
+                                    finally {
+                                        console.log('All done');
+                                    }
+                                }
+
+
+                                async function getImage() {
+                                    const url =
+                                        'https://upload.wikimedia.org/wikipedia/commons/b/b2/Eagle_nebula_pillars.jpg';
+                                    // Wait (asynchronously) for the response
+                                    const response = await fetch(url);
+                                    if (response.ok) {
+                                        // Wait (asynchronously) for the blob to be read
+                                        const blob = await response.blob();
+                                        // Now show the image
+                                        const img = document.getElementById('imgDownload2');
+                                        img.src = URL.createObjectURL(blob);
+                                    }
+                                }
+
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <section class="socil-link-section">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="socil-link">
+                        <ul>
+                            <li>
+                                <a href="#"> <img src="./../../images/facebook.png" /></a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./../../images/youtube.png" /></a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./../../images/twitter.png" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer class="footTem">
+        <div class="foot-text">
+            <div>
+                <small style="color: #fff; text-shadow: -5px 4px 6px black,5px -4px 6px black; ">isdb-bisew</small>
+            </div>
+            <div><small>copyright &copy; 2024</small></div>
+            <div>
+                <small style="color: #fff; text-shadow: -5px 4px 6px black,5px -4px 6px black; ">
+                    md. samaul
+                    islam
+                </small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,159 @@
+.text-title {
+    padding: 8px;
+    background-color: lavenderblush;
+    margin: 12px 12px;
+}
+
+article {
+    padding: 8px;
+}
+
+article div {
+    border: 2px solid forestgreen;
+}
+
+.bg-text-color {
+    color: darkred;
+}
+
+.text p {
+    text-decoration-line: none;
+}
+
+.text h1 {
+    text-transform: lowercase; /* all font is lowercase */
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+
+.text h2 {
+    text-decoration-line: overline;
+    text-decoration-thickness: 3px;
+}
+
+.text2 p {
+    text-decoration-line: line-through;
+}
+
+.p1 {
+    text-decoration-style: solid;
+}
+
+.p2 {
+    text-decoration-style: dashed;
+}
+
+.p3 {
+    text-decoration-style: wavy;
+}
+
+.p4 {
+    text-decoration-style: double;
+}
+
+.text3 p {
+    white-space: nowrap;
+}
+
+.text4 {
+    border: 2px solid blue;
+}
+
+.test-clip {
+    white-space: normal;
+    width: 220px;
+    border: 2px solid #333333;
+    overflow: scroll;
+    text-overflow: clip;
+}
+
+.test-ellipsis {
+    white-space: normal;
+    width: 220px;
+    border: 2px solid #333333;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+.test-word-wrap {
+    width: 220px;
+    border: 2px solid #333333;
+    word-wrap: normal;
+}
+
+.text6 {
+    border: 2px solid blue;
+}
+
+p[class] {
+    width: 160px;
+    border: 2px solid #333333;
+}
+
+.test-keep-all {
+    word-break: break-all;
+}
+
+.test-break-word {
+    word-break: keep-all;
+}
+
+.test-break-all {
+    word-break: normal;
+}
+
+.test-one {
+    letter-spacing: 0px;
+}
+
+.test-two {
+    letter-spacing: 2px;
+}
+
+.test-one1 {
+    word-spacing: -2px;
+}
+
+.test-two2 {
+    word-spacing: 8px;
+}
+
+text-0-9 {
+    border: 2px solid gray;
+    font-size: 24px;
+}
+
+.test-one9 {
+    line-height: 70%;
+}
+
+.test-two9 {
+    line-height: 2.5;
+}
+
+.text10 p {
+    width: 170px;
+    border: 2px solid gray;
+}
+
+.test-one {
+    text-align: left;
+}
+
+.test-two {
+    text-align: justify;
+}
+
+.test-three {
+    text-align: center;
+}
+
+.text11 p {
+    width: 170px;
+    border: 2px solid gray;
+}
+
+.test {
+    text-indent: 40px;
+    font-variant: normal;
+}

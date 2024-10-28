@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="./../style.css">
+    <link rel="icon" type="image/x-icon" href="./../favicon.png">
+</head>
+
+<body>
+    <header id="headTem">
+        <section class="navSection">
+            <div class="navDiv">
+                <div class="logo-section">
+                    <img src="./../images/Islamic_Development_Bank_logo.png" alt="">
+                </div>
+                <div class="menu-section">
+                    <ul>
+                        <li><a href="./../index.html" class="active">Home</a></li>
+                        <li><a href="./../html&css/chapter/chapter_1.html" class="active">HTML</a></li>
+                        <li><a href="./../pages/JavaScript.html">JavaScript</a></li>
+                        <li><a href="./../pages/about.html">About</a></li>
+                        <li><a href="./../pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="profile-section">
+                    <div class="profile-menu">
+                        <div class="userImg" style="cursor:pointer;">
+                            <img src="./../images/user.png" alt="">
+                        </div>
+                        <div class="signInUp">
+                            <ul>
+                                <li><a href="#">Sign In</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner-section">
+            <div class="web-b-app">
+                <h2>Web Application Development Using ASP.NET</h2>
+            </div>
+            <div class="banner-botom">
+                <strong class="marqu-text-title">IsDB-BISEW IT Scholarship Programme</strong>
+                <div class="marque-text">
+                    <small>
+                        <marquee>
+                            <strong>IsDB-BISEW</strong> আইটি স্কলারশিপ প্রোগ্রাম সম্পূর্ণ
+                            বিনামূল্যে পেশাদার আইটি প্রশিক্ষণ প্রদান করে ৷ এই প্রোগ্রামটি
+                            উনিশ বছর ধরে চলছে ৷ এই প্রোগ্রামের লক্ষ্য মেধাবী মুসলিম
+                            প্রার্থীদেরকে আন্তর্জাতিক স্তরের পেশাদার আইটি প্রশিক্ষণ প্রদানের
+                            মাধ্যমে কর্মসংস্থানের ব্যবস্থা করা। প্রোগ্রামটি এ পর্যন্ত
+                            <strong>১৭,২৭৬</strong> জন আইটি প্রফেশনাল তৈরি করেছে যারা দেশ
+                            এবং বিদেশের <strong>৩,২৫৪</strong> টিরও বেশি প্রতিষ্ঠানে কর্মরত
+                            আছে ।
+                        </marquee>
+                    </small>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="mainTem-section">
+        <div class="mainTem">
+            <section class="left-section">
+                <div>
+                    <div class="chapter-text">
+                        <h2>chapter 6</h2>
+                    </div>
+                    <div class="left-navbar">
+                        <div>
+                            <ul>
+                                <li><a href="./../javaScript/chapter_1.html">Chapter 1</a></li>
+                                <li><a href="./../javaScript/chapter_2.html">Chapter 2</a></li>
+                                <li><a href="./../javaScript/chapter_3.html">Chapter 3</a></li>
+                                <li><a href="./../javaScript/chapter_4.html">Chapter 4</a></li>
+                                <li><a href="./../javaScript/chapter_5.html">Chapter 5</a></li>
+                                <li><a href="./../javaScript/chapter_6.html">Chapter 6</a></li>
+                                <li><a href="./../javaScript/chapter_7.html">Chapter 7</a></li>
+                                <li><a href="./../javaScript/chapter_8.html">Chapter 8</a></li>
+                                <li><a href="./../javaScript/chapter_9.html">Chapter 9</a></li>
+                                <li><a href="./../javaScript/chapter_10.html">Chapter 10</a></li>
+                                <li><a href="./../javaScript/chapter_11.html">Chapter 11</a></li>
+                                <li><a href="./../javaScript/chapter_12.html">Chapter 12</a></li>
+                                <li><a href="./../javaScript/chapter_13.html">Chapter 13</a></li>
+                                <li><a href="./../javaScript/chapter_14.html">Chapter 14</a></li>
+                                <li><a href="./../javaScript/chapter_15.html">Chapter 15</a></li>
+                                <li><a href="./../javaScript/chapter_16.html">Chapter 16</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </section>
+            <section class="right-body-part">
+                <div class="chapter-title">
+                    <h2>
+                        Functionis
+                    </h2>
+                </div>
+                <section>
+                    <div class="article-part">
+                        <div>
+                            <div class="text-title">
+                                <h2>Function</h2>
+                            </div>
+                            <article>
+                                <div id="counterDiv"></div>
+                                <button id="start">start</button>
+                            </article>
+
+                        </div>
+                        <script>
+                            //settimeout 
+                            document.getElementById('start').addEventListener("click", btnClick);
+                            function btnClick() {
+                                setTimeout(showMessage, 1000);
+                            }
+                            function showMessage() {
+                                alert('You clicked the button 1 seconds ago');
+                            }
+                            // btnClick();
+
+                            function btnClick1() {
+                                const timeoutCallback = function showMessage() {
+                                    alert('You clicked the button 2 seconds ago');
+                                }
+                                setTimeout(timeoutCallback, 2000);
+
+                                setTimeout(function () {
+                                    alert('You clicked the button 2 seconds ago');
+                                }, 1000);
+                            }
+                            function btnClick2() {
+                                function logTime(time) {
+                                    console.log('Logging at: ' + time.toLocaleTimeString());
+                                }
+
+                                console.log('About to call callBack()');
+                                callBack(logTime);
+                                console.log('All finished');
+                            }
+                            btnClick2();
+                            function callBack(callbackFunction) {
+                                console.log('Starting callBack()');
+                                // Call the provided function and supply an argument
+                                callbackFunction(new Date());
+                                console.log('Ending callBack()');
+                            }
+                            // nums of squire number
+                            const nums = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+                            function squareResult(nums) {
+                                return nums ** 2;
+                            }
+                            console.log(squareResult(2));
+                            console.log(nums);
+                            const squares = nums.map(squareResult);
+                            console.log(squares);
+
+                            const sns = nums.map(num => num ** 3);
+                            console.log(sns);
+
+                            const basePower = (b, p) => b ** p;
+                            console.log(basePower(2, 3));
+                            var userName = "md samaul islam";
+                            function applyTitleCase(userName) {
+                                //split
+                                var WArr = userName.split(' ');
+                                console.log(WArr);
+                                //for of loop
+                                const proWArr = [];
+                                for (const word of WArr) {
+                                    // Capitalize the first letter
+                                    proWArr.push(word[0].toUpperCase() + word.slice(1));
+                                }
+                                console.log({proWArr});
+                                //join
+                                console.log(proWArr.join(' '));
+                                // Join empty space
+                                return proWArr.join(' ');
+
+                            }
+                            applyTitleCase(userName);
+
+                            const Uname = userName => {
+                                // Split
+                                const WArr = userName.split(' ');
+                                // Create a new array that will hold the processed words
+                                const proWArr = [];
+                                for (const word of WArr) {
+                                    // Capitalize the first letter of this word
+                                    proWArr.push(word[0].toUpperCase() + word.slice(1));
+                                }
+                                // Join
+                                return proWArr.join(' ');
+                            }
+                            console.log(Uname(userName));
+                            function addnums(fName, sName, Tname = 0) {
+                                return fName + sName + Tname;
+                            }
+                            console.log(addnums(2, 4, 7));
+                            console.log(addnums(5, 6));
+
+                            function addnums(fName = 11, sName = 23, Tname = 34, multiplier = 3) {
+                                return multiplier * (fName + sName + Tname);
+                            }
+                            const sum = addnums(4, 10, undefined, 9);
+                            const sum2 = addnums(6, 10, null, 3);
+                            console.log(sum);
+                            console.log(sum2);
+
+                            function addRounds(...nums) {
+                                let sum = 0;
+                                for (let i = 0; i < nums.length; i += 1) {
+                                    sum += Math.round(nums[i]);
+                                }
+                                return sum;
+                            }
+                            console.log(addRounds(2.3, 4, 5, 16, 18.1));
+                            //functional parameter
+
+
+                            function outterFuntion(greeting) {
+                                function innerFAddUser(name) {
+                                    return `${greeting} ${name}`;
+                                }
+                                return innerFAddUser;
+                            }
+
+                            const daytime = outterFuntion('hey');
+                            const nightTime = outterFuntion('good night');
+                            console.log(daytime('arafat'));
+                            console.log(nightTime('samaul'));
+
+                            function countTicket() {
+                                let count = 0;
+                                function counter() {
+                                    count += 1;
+                                    console.log(count);
+                                }
+                                return counter;
+                            }
+                            const funCounter = countTicket();
+                            funCounter();
+                            funCounter();
+                            funCounter();
+
+                            function* generatateFun() {
+                                yield 772686;
+                                yield 'second number';
+                                yield 726285;
+                                return 'This is the end';
+                            }
+                            const generator = generatateFun();
+                            // Start generator
+                            console.log(generator.next().value);
+
+                            // Resume generator
+                            console.log(generator.next().value);
+                            // Get the finl two values
+                            console.log(generator.next().value);
+                            console.log(generator.next().value);
+                            for (const value of generatateFun()) {
+                                console.log(value);
+                            }
+                            let st = '';
+                            function stringQut(str) {
+                                return ('"' + str + '"');
+                            }
+                            function barString(str) {
+                                return ('-' + str + '-');
+                            }
+                            function namedEntity(str) {
+                                return ('&#' + str + ';');
+                            }
+
+                            console.log(stringQut('samaul'));
+                            console.log(barString('shihan'));
+                            console.log(namedEntity(772686));
+
+                            function partial(fn1, ...aToArr) {
+                                return function (...raArr) {
+                                    return fn1(...aToArr, ...raArr);
+                                }
+                            }
+                            // With spread syntax
+                            const values = [...generatateFun()];
+                            console.log(values);
+                            // The function you want to partialize
+                            function powerR(p, b) {
+                                return b ** p;
+                            }
+                            // Using partial()
+                            const cubeIt = partial(powerR, 2);
+                            // Calculate the cube of 4 (4**3)
+                            console.log(cubeIt(3));
+
+                            window.onload = function () {
+                                window.name = 'window';
+                                const newObj = {
+                                    name: 'obj',
+                                    sayGreeting: function () {
+                                        console.log(`this Name, ${this.name}`);
+                                        const nestedGreeting = function (greeting) {
+                                            console.log(`${greeting} ${this.name}`);
+                                        }.bind(this);
+                                        nestedGreeting('hello');
+                                    }
+                                };
+                                newObj.sayGreeting();
+                            };
+
+                            function Counter(from, to, divElement) {
+                                this.currentCount = from;
+                                this.finishCount = to;
+                                this.element = divElement;
+                                // The incrementCounter() method updates the page
+                                this.incrementCounter = function () {
+                                    this.currentCount -= 1;
+                                    this.element.textContent = this.currentCount;
+                                    if (this.currentCount > this.finishCount) {
+                                        // Schedule this function to run again after 1 second.
+                                        setTimeout(this.incrementCounter.bind(this), 1000);
+                                    }
+                                };
+                                this.startCounter = function () {
+                                    this.incrementCounter();
+                                }
+                            }
+                            // Create the counter for this page.
+                            const counter = new Counter(10, 0, document.getElementById('counterDiv'));
+                            // When the page loads
+                            window.onload = function () {
+                                counter.startCounter();
+                            }
+                            //fibonacci serize
+                            function fibonacciSerize(n) {
+                                return n < 2 ? n : fibonacciSerize(n - 1) + fibonacciSerize(n - 2);
+                            }
+
+                            console.log(fibonacciSerize(6));
+
+                            //factorial
+                            function factorial2(n) {
+                                return n <= 1 ? 1 : n * factorial2(n - 1);
+                            }
+                            console.log(factorial2(5));
+
+                        </script>
+                    </div>
+                </section>
+                <section class="socil-link-section">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="socil-link">
+                        <ul>
+                            <li>
+                                <a href="#"> <img src="./../../images/facebook.png" /></a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./../../images/youtube.png" /></a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./../../images/twitter.png" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer class="footTem">
+        <div class="foot-text">
+            <div>
+                <small style="color: #fff; text-shadow: -5px 4px 6px black,5px -4px 6px black; ">isdb-bisew</small>
+            </div>
+            <div><small>copyright &copy; 2024</small></div>
+            <div>
+                <small style="color: #fff; text-shadow: -5px 4px 6px black,5px -4px 6px black; ">
+                    md. samaul
+                    islam
+                </small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+.text-title {
+    padding: 6px; /*foure site padding an 6 px*/
+    background-color: lightblue;  /*color is an light blue*/
+    margin: 12px 8px;  /*margin is an top and botton is an 12px and left and right site is an 8px*/
+}
+
+article {
+    padding: 6px;
+}
+
+article div {
+    border: 2px solid darkgreen;
+}
+
+body * p {
+    color: darkred;  /*every element p tag can change the color darkred inside body*/
+}
+
+p {
+    color: rgb(0, 204, 128);  /*all element p tag color is an like green*/
+}
+
+#my-text {
+    color: rgb(0, 204, 100);  /*# meanse my-text is an a id and this text color is an like green*/
+}
+
+.my-text {
+    color: rgb(75, 0, 255); /*. meanse my-text is an a class and this text color is an like green*/
+}
+
+.my-text.main {
+    color: rgb(0, 204, 125);
+}
+
+.my-text {
+    color: rgb(0, 153, 255);
+}
+
+button:focus {
+    color: darkred;  /*button color is an darkred when is an focus*/
+}
+
+button:hover {
+    color: darkgreen;  /*button color is an darkgreen when is an hover*/
+}
+
+button:active {
+    color: navy; /*button color is an navy when is an Active*/
+}
+
+button:enabled {
+    background-color: lightcyan; /*button color is an lightcyan when is an enavle*/
+}
+
+button:disabled {
+    background-color: #e0e0e0;/*button color is an offwhite when is an desiable*/
+}
+
+input:checked+span {
+    color: rgb(0, 204, 76); /*button color is an green when is an check plus span*/
+}
+
+input:invalid {
+    background-color: lightcoral;
+}
+
+input:required {
+    background-color: lightyellow;
+}
+
+input:out-of-range {
+    background-color: lightblue;
+}
+
+p:first-child {
+    color: rgb(70, 0, 255);
+}
+
+p:last-child {
+    color: rgb(255, 0, 200);
+}
+
+p:nth-child(2) {
+    color: rgb(70, 17, 17);
+}
+
+p:first-of-type {
+    color: crimson;
+}
+
+.emdiv div:empty {
+    height: 25px;
+    border: 2px dashed red;
+}
+
+.trdiv :target {
+    border: 2px solid red;
+}
+
+.bediv .required::before {
+    content: "* ";
+    color: rgb(0, 204, 13);
+}
+
+.afdiv .required::after {
+    content: "* "; /*.required after add * sing*/
+    color: darkred;
+}
+
+.pdiv p::selection {
+    color: rgb(255, 60, 0);
+    background-color: lightyellow;
+}
+
+.container p {
+    color: rgb(99, 0, 255);
+}
+
+.container2>p {
+    color: rgb(0, 204, 255);
+}
+
+.fp [class^="word"] {
+    color: rgb(100, 0, 255);
+}
+
+.ip [class*="word"] {
+    color: rgb(0, 172, 255);
+}

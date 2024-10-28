@@ -1,0 +1,20 @@
+{
+    "name": "JavaScript Everywhere",
+    "short_name": "JavaScript",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffc40d",
+    "theme_color": "#ffc40d",
+    "icons": [
+    {
+    "src": "../capcha.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    },
+    {
+    "src": "../capcha.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    }
+    ]
+   }

@@ -1,0 +1,23 @@
+
+table {
+  border-collapse: collapse; /* create an border in a table  */
+}
+
+th,
+td {
+  border: 2px solid black; /* table head and table details border 2px an color solid black  */
+}
+
+.days {
+  background-color: lightcoral; /* days background color lightcoral */
+}
+
+.weekend {
+  background-color: lightcyan; /* widkend background color lightcoral */
+}
+
+#isdb-iframe {
+  width: 50vw;  /*automatic width with device */
+  height: 50vh;/*automatic height with device */
+  border: 1px solid gray; 
+}

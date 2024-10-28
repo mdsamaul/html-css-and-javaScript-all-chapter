@@ -1,0 +1,27 @@
+.text-title {
+    padding: 10px;
+    background-color: lightcyan;
+    margin: 15px 5px;
+}
+
+article {
+    padding: 10px;
+}
+
+article div {
+    border: 2px solid darkgreen;
+}
+
+.bg-color1 {
+    background-color: crimson;
+}
+
+.bg-color h4 {
+    color: #ff0000;
+    background-color: #ffffe0;
+}
+
+.bg-color h3 {
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 224);
+}

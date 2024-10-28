@@ -1,0 +1,152 @@
+.text-title {
+  padding: 12px;
+  background-color: lavender;
+  margin: 20px 8px;
+}
+
+article {
+  padding: 12px;
+}
+
+article div {
+  border: 3px solid deepskyblue;
+}
+
+#border-box {
+  border: 3px solid deepskyblue;
+}
+
+.border-box {
+  width: 320px;
+  height: 320px;
+  padding: 18px;
+  border: 5px solid tomato;
+  margin: 15px;
+  box-sizing: border-box; /*box sizing is an excally full width and height in a box with margin padding border*/
+}
+
+#content-box {
+  border: 3px solid deepskyblue;
+}
+
+.content-box {
+  width: 320px;
+  height: 320px;
+  padding: 18px;
+  border: 5px solid tomato;
+  margin: 15px;
+  box-sizing: content-box; /*this is the default value in css*/
+}
+
+#parent {
+  border: 3px solid silver;
+}
+
+#child {
+  border: 3px solid darkred;
+  margin: 50px 30px;
+}
+
+#parent1 {
+  border: 3px solid silver;
+  height: 170px;
+}
+
+#child1 {
+  border: 3px solid darkred;
+  width: 270px;
+  margin: auto;
+}
+
+#parent2 {
+  border: 3px solid silver;
+}
+
+#child-one {
+  border: 3px solid darkred;
+  margin: 50px;
+}
+
+#child-two {
+  border: 3px solid royalblue;
+  margin: 60px;
+}
+
+#parent3 p {
+  width: 70%;
+  outline: 7px dashed orange;
+  border: 3px solid silver;
+}
+
+#parent4 p {
+  border-top: 7px solid darkred;
+}
+
+#parent4 h1 {
+  border-top: 7px solid darkred;
+}
+
+#parent4 h2 {
+  border: 7px solid darkred;
+}
+
+#parent4 h3 {
+  border: 7px solid darkred;
+}
+
+#parent4 h4 {
+  border: 7px solid darkred;
+}
+
+#parent4 h5 {
+  border: 12px double darkred;
+}
+
+p[id] {
+  padding: 18px;
+  width: 170px;
+  height: 80px;
+  background: rgb(9, 255, 60);
+}
+
+#p1 {
+  border-radius: 18px;
+}
+
+#p2 {
+  border-radius: 50%;
+}
+
+#border-img-round {
+  border: 14px solid transparent;
+  padding: 25px;
+  border-image: url(./../../bg.jpg) 40 round;
+}
+
+#border-img-stretch {
+  border: 14px solid transparent;
+  padding: 25px;
+  border-image: url(./../../bg.jpg) 40 stretch; /*border image*/
+}
+
+#p-padding1 {
+  padding: 30px;
+  border: 3px solid silver;
+}
+
+#p-padding2 {
+  border: 3px solid silver;
+  padding: 30px;
+}
+
+#p-h1 {
+  border: 3px solid silver;
+  width: 160px;
+  height: 160px;
+}
+
+#p-h2 {
+  border: 3px solid silver;
+  min-width: 160px;
+  min-height: 160px;
+}

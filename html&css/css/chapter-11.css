@@ -1,0 +1,10 @@
+
+.custom {
+    font-size: 1.6em; /*change the text size an 1 em = 16 pixel */
+}
+
+.div {
+    border-width: 6px; /*width the border an 6 px */
+    border-style: solid; /*an border solid*/
+    border-color: green; /*an boder color is green */
+}
